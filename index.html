@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>얼굴 기반 호르몬 분석기</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>얼굴 기반 호르몬 분석기</h1> 
+    <input type="file" id="imageUpload" accept="image/*"/>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <div id="result"></div>
+  </div>
+</body>
+</html>
